@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerCursor : MonoBehaviour {
 
     [SerializeField]
-    Camera camera;
+    Camera playerCamera;
 
     [SerializeField]
     Image[] cursors;
@@ -24,9 +24,9 @@ public class PlayerCursor : MonoBehaviour {
     void FixedUpdate()
     {
         RaycastHit hit;
-        Vector3 direction = camera.transform.TransformDirection(Vector3.forward);
-        Debug.DrawRay(camera.transform.position, direction, Color.green,2f);
-        if (Physics.Raycast(camera.transform.position, direction, out hit, 2f))
+        Vector3 direction = playerCamera.transform.TransformDirection(Vector3.forward);
+        Debug.DrawRay(playerCamera.transform.position, direction, Color.green,2f);
+        if (Physics.Raycast(playerCamera.transform.position, direction, out hit, 2f))
         {
             if (hit.collider.CompareTag("Item"))
             {

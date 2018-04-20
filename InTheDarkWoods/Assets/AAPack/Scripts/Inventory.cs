@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour {
 
-    GameObject inventory;
+    Pickable inventory;
 
     [SerializeField]
     Image image;
@@ -15,7 +15,7 @@ public class Inventory : MonoBehaviour {
         image.enabled = false;
     }
 
-    public void AddItem(GameObject item)
+    public void AddItem(Pickable item)
     {
         if (inventory != null)
         {
@@ -23,19 +23,46 @@ public class Inventory : MonoBehaviour {
         }
 
         inventory = item;
-        inventory.SetActive(false);
+        inventory.gameObject.SetActive(false);
         image.enabled = true;
 
     }
 
     public void RemoveItem()
     {
-        inventory.transform.SetPositionAndRotation(transform.position, Quaternion.identity);
-        inventory.SetActive(true);
-        inventory = null;
-        image.enabled = false;
+        if (inventory != null)
+        {
+            inventory.transform.SetPositionAndRotation(transform.position + transform.localRotation.eulerAngles.normalized, Quaternion.identity);
+            inventory.gameObject.SetActive(true);
+            inventory = null;
+            image.enabled = false;
+        }
     }
 
+    public string CheckItem()
+    {
+        if (inventory != null)
+        {
+            return inventory.GetId();
+        }
+        else
+        {
+            return null;
+        }
+    }
 
+    public bool UseItem()
+    {
+        if(inventory!=null)
+        {
+            inventory = null;
+            image.enabled = false;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 
 }

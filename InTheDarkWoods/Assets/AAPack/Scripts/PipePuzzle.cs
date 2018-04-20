@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class PipePuzzle : MonoBehaviour, IInteractive {
 
+    [SerializeField]
+    GameObject pipe;
 
+    [SerializeField]
+    GameObject pipeGost;
+
+    [SerializeField]
+    public string acceptableId;
 
     public void OnAction(GameObject player)
     {
-
+        if(player.GetComponent<Inventory>().CheckItem()==acceptableId)
+        {
+            player.GetComponent<Inventory>().UseItem();
+            pipe.SetActive(!pipe.activeSelf);
+            pipeGost.SetActive(!pipeGost.activeSelf);
+        }
     }
 
     public PlayerCursor.Cursor OnFocused()
