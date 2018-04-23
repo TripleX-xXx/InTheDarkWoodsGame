@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2651347}
   - component: {fileID: 2651346}
+  - component: {fileID: 2651348}
   m_Layer: 0
   m_Name: Water4AdvancedReflectionSceneCamera
   m_TagString: Untagged
@@ -171,13 +172,21 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2651345}
-  m_LocalRotation: {x: 0.026029602, y: 0.7192129, z: 0.02698364, w: -0.6937775}
-  m_LocalPosition: {x: -3.331926, y: -1.2675948, z: -3.1047869}
+  m_LocalRotation: {x: 0.14621669, y: 0.6616305, z: 0.13377567, w: -0.7231666}
+  m_LocalPosition: {x: -2.8988876, y: -1.9677043, z: -0.26788253}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!45 &2651348
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2651345}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1001 &7138710
 Prefab:
   m_ObjectHideFlags: 0
@@ -4263,6 +4272,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dcecfa4dfd12b4f4ead16037aee46354, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &990545415 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 409164, guid: dcecfa4dfd12b4f4ead16037aee46354, type: 2}
+  m_PrefabInternal: {fileID: 990545414}
 --- !u!1001 &993357521
 Prefab:
   m_ObjectHideFlags: 0
@@ -5842,6 +5855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d07ba3234ac900b438a8686464f5babc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hand: {fileID: 1988154034}
   image: {fileID: 843527347}
 --- !u!114 &1282796133
 MonoBehaviour:
@@ -8911,6 +8925,34 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 458024, guid: d2522dcf0fb8d6b4aa4ddd10c405746a, type: 2}
   m_PrefabInternal: {fileID: 1261617349}
+--- !u!1 &1988154033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1988154034}
+  m_Layer: 0
+  m_Name: hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1988154034
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1988154033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.753}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 990545415}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1993601215
 Prefab:
   m_ObjectHideFlags: 0
