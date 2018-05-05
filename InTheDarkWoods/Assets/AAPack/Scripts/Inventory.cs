@@ -45,7 +45,7 @@ public class Inventory : MonoBehaviour {
             inventory.GetComponent<Rigidbody>().detectCollisions = true;
             inventory.GetComponent<Rigidbody>().useGravity = true;
             inventory.GetComponent<Transform>().SetParent(null);
-            inventory.transform.SetPositionAndRotation(transform.position + transform.localRotation.eulerAngles.normalized, Quaternion.identity);
+            //inventory.transform.SetPositionAndRotation(transform.position + transform.localRotation.eulerAngles.normalized, Quaternion.identity);
             //inventory.gameObject.SetActive(true);
             inventory = null;
             image.enabled = false;
@@ -68,6 +68,7 @@ public class Inventory : MonoBehaviour {
     {
         if(inventory!=null)
         {
+            Destroy(inventory.gameObject);
             inventory = null;
             image.enabled = false;
             return true;

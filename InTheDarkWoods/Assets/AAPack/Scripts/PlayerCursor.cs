@@ -21,12 +21,12 @@ public class PlayerCursor : MonoBehaviour {
 
     Cursor currentCursor = Cursor.none;
 
-    void FixedUpdate()
+    void Update()
     {
         RaycastHit hit;
         Vector3 direction = playerCamera.transform.TransformDirection(Vector3.forward);
-        Debug.DrawRay(playerCamera.transform.position, direction, Color.green,2f);
-        if (Physics.Raycast(playerCamera.transform.position, direction, out hit, 2f))
+        Debug.DrawRay(playerCamera.transform.position, direction, Color.green,3f);
+        if (Physics.Raycast(playerCamera.transform.position, direction, out hit, 3f))
         {
             if (hit.collider.CompareTag("Item"))
             {
@@ -62,4 +62,5 @@ public class PlayerCursor : MonoBehaviour {
             cursors[(int)cursor].enabled = true;
         }
     }
+
 }
