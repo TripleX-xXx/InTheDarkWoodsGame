@@ -47,17 +47,7 @@ public class Door : MonoBehaviour , IInteractive{
             }
             else
             {
-                if (isOpen)
-                {
-                    animator.SetTrigger("Close");
-                    if (closeSound != null) closeSound.Play();
-                }
-                else
-                {
-                    animator.SetTrigger("Open");
-                    if(openSound != null) openSound.Play();
-                }
-                isOpen = !isOpen;
+                OpenDoor(!isOpen);
             }
         }
     }
@@ -74,6 +64,20 @@ public class Door : MonoBehaviour , IInteractive{
         }
     }
 
+    public void OpenDoor(bool open)
+    {
+        if (isOpen != open && open)
+        {
+            animator.SetTrigger("Open");
+            if (openSound != null) openSound.Play();
+        }
+        else if (isOpen != open && !open)
+        {
+            animator.SetTrigger("Close");
+            if (closeSound != null) closeSound.Play();
+        }
+        isOpen = open;
+    }
 
     // Use this for initialization
     void Start () {
