@@ -9,7 +9,7 @@ public class Symbol : MonoBehaviour , IInteractive {
     SymbolsPuzzle puzzle;
 
     [SerializeField]
-    Image symbol;
+    RawImage symbol;
 
     public PlayerCursor.Cursor OnFocused()
     {
