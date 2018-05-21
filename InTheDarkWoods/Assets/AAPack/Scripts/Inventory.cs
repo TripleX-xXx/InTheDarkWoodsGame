@@ -10,12 +10,9 @@ public class Inventory : MonoBehaviour {
     [SerializeField]
     Transform hand;
 
-    [SerializeField]
-    Image image;
-
     private void Start()
     {
-        image.enabled = false;
+
     }
 
     public void AddItem(Pickable item)
@@ -33,9 +30,6 @@ public class Inventory : MonoBehaviour {
         inventory.GetComponent<Transform>().localPosition = Vector3.zero;
         inventory.GetComponent<Transform>().localRotation = Quaternion.identity;
 
-        //inventory.gameObject.SetActive(false);
-        image.enabled = true;
-
     }
 
     public void RemoveItem()
@@ -45,10 +39,7 @@ public class Inventory : MonoBehaviour {
             inventory.GetComponent<Rigidbody>().detectCollisions = true;
             inventory.GetComponent<Rigidbody>().useGravity = true;
             inventory.GetComponent<Transform>().SetParent(null);
-            //inventory.transform.SetPositionAndRotation(transform.position + transform.localRotation.eulerAngles.normalized, Quaternion.identity);
-            //inventory.gameObject.SetActive(true);
             inventory = null;
-            image.enabled = false;
         }
     }
 
@@ -70,7 +61,6 @@ public class Inventory : MonoBehaviour {
         {
             Destroy(inventory.gameObject);
             inventory = null;
-            image.enabled = false;
             return true;
         }
         else

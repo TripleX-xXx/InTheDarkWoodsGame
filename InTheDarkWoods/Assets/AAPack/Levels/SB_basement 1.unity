@@ -9052,6 +9052,21 @@ Prefab:
       propertyPath: image
       value: 
       objectReference: {fileID: 187654729}
+    - target: {fileID: 143852303960386872, guid: 57f7b7c57846bbb40ab89f4023b7e21c,
+        type: 2}
+      propertyPath: m_Height
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 143852303960386872, guid: 57f7b7c57846bbb40ab89f4023b7e21c,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 143852303960386872, guid: 57f7b7c57846bbb40ab89f4023b7e21c,
+        type: 2}
+      propertyPath: m_Radius
+      value: 0.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 57f7b7c57846bbb40ab89f4023b7e21c, type: 2}
   m_IsPrefabParent: 0
