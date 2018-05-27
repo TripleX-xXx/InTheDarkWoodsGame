@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 2c776d0296aa049bdad102d218128420
+timeCreated: 1527365491
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Fenetre
+    100002: Gond
+    100004: Gond_1
+    100006: Gond_2
+    100008: Poignee
+    100010: sweethome3d_window_pane
+    100012: Tour_Fenetre
+    100014: //RootNode
+    400000: Fenetre
+    400002: Gond
+    400004: Gond_1
+    400006: Gond_2
+    400008: Poignee
+    400010: sweethome3d_window_pane
+    400012: Tour_Fenetre
+    400014: //RootNode
+    2300000: Fenetre
+    2300002: Gond
+    2300004: Gond_1
+    2300006: Gond_2
+    2300008: Poignee
+    2300010: sweethome3d_window_pane
+    2300012: Tour_Fenetre
+    3300000: Fenetre
+    3300002: Gond
+    3300004: Gond_1
+    3300006: Gond_2
+    3300008: Poignee
+    3300010: sweethome3d_window_pane
+    3300012: Tour_Fenetre
+    4300000: Fenetre
+    4300002: Gond
+    4300004: Gond_1
+    4300006: Gond_2
+    4300008: Poignee
+    4300010: sweethome3d_window_pane
+    4300012: Tour_Fenetre
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FenetreMat
+    second: {fileID: 2100000, guid: 24acc2993f51a4dddb4d9e685ebf7a3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GondMat
+    second: {fileID: 2100000, guid: e89df1d282c17485fb6807c2b81dc44e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gond_1Mat
+    second: {fileID: 2100000, guid: 4c37051c1d1c9406aa02bdd4b81e3f14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gond_2Mat
+    second: {fileID: 2100000, guid: f5e83d1c31481441dbe07bc211b85485, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PoigneeMat
+    second: {fileID: 2100000, guid: c52dbe881566f48fabf937134690db49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tour_FenetreMat
+    second: {fileID: 2100000, guid: 6d785fe6566474c059c9bb8fa6693de3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sweethome3d_window_paneMat
+    second: {fileID: 2100000, guid: 3dc70bbb7e75745979d2a076d0b9c012, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
