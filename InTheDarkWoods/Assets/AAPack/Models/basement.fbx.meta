@@ -264,6 +264,42 @@ ModelImporter:
     4300066: bevelPolygon70
     4300068: bevelPolygon71
     4300070: pCube81
+    6400000: bevelPolygon27
+    6400002: bevelPolygon28
+    6400004: bevelPolygon29
+    6400006: bevelPolygon30
+    6400008: bevelPolygon31
+    6400010: bevelPolygon33
+    6400012: bevelPolygon34
+    6400014: bevelPolygon35
+    6400016: bevelPolygon37
+    6400018: bevelPolygon38
+    6400020: bevelPolygon39
+    6400022: bevelPolygon40
+    6400024: bevelPolygon42
+    6400026: bevelPolygon43
+    6400028: bevelPolygon44
+    6400030: bevelPolygon45
+    6400032: bevelPolygon46
+    6400034: bevelPolygon47
+    6400036: bevelPolygon48
+    6400038: bevelPolygon49
+    6400040: bevelPolygon50
+    6400042: bevelPolygon51
+    6400044: bevelPolygon52
+    6400046: bevelPolygon53
+    6400048: bevelPolygon54
+    6400050: bevelPolygon56
+    6400052: bevelPolygon63
+    6400054: bevelPolygon64
+    6400056: bevelPolygon65
+    6400058: bevelPolygon66
+    6400060: bevelPolygon67
+    6400062: bevelPolygon68
+    6400064: bevelPolygon69
+    6400066: bevelPolygon70
+    6400068: bevelPolygon71
+    6400070: pCube81
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -297,7 +333,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
