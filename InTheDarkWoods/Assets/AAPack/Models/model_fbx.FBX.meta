@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: cca58d7b9ea7c462dbb50c0448334274
+timeCreated: 1527460883
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box02
+    100002: Box14
+    100004: Box15
+    100006: Box16
+    100008: Box17
+    100010: Box18
+    100012: Box19
+    100014: Box20
+    100016: Box21
+    100018: Box22
+    100020: Box23
+    100022: Box24
+    100024: Box28
+    100026: Box29
+    100028: Box30
+    100030: Camera001
+    100032: Camera001.Target
+    100034: Camera002
+    100036: Camera003
+    100038: Camera003.Target
+    100040: Camera004
+    100042: Camera004.Target
+    100044: Camera005
+    100046: Camera005.Target
+    100048: Camera006
+    100050: Camera007
+    100052: Camera008
+    100054: Camera008.Target
+    100056: Group01
+    100058: Group02
+    100060: Line01
+    100062: Line02
+    100064: //RootNode
+    100066: Plane02
+    100068: VRayLight001
+    100070: VRayPlane001
+    100072: VRayPlane002
+    400000: Box02
+    400002: Box14
+    400004: Box15
+    400006: Box16
+    400008: Box17
+    400010: Box18
+    400012: Box19
+    400014: Box20
+    400016: Box21
+    400018: Box22
+    400020: Box23
+    400022: Box24
+    400024: Box28
+    400026: Box29
+    400028: Box30
+    400030: Camera001
+    400032: Camera001.Target
+    400034: Camera002
+    400036: Camera003
+    400038: Camera003.Target
+    400040: Camera004
+    400042: Camera004.Target
+    400044: Camera005
+    400046: Camera005.Target
+    400048: Camera006
+    400050: Camera007
+    400052: Camera008
+    400054: Camera008.Target
+    400056: Group01
+    400058: Group02
+    400060: Line01
+    400062: Line02
+    400064: //RootNode
+    400066: Plane02
+    400068: VRayLight001
+    400070: VRayPlane001
+    400072: VRayPlane002
+    2000000: Camera001
+    2000002: Camera002
+    2000004: Camera003
+    2000006: Camera004
+    2000008: Camera005
+    2000010: Camera006
+    2000012: Camera007
+    2000014: Camera008
+    2300000: Box02
+    2300002: Box14
+    2300004: Box15
+    2300006: Box16
+    2300008: Box17
+    2300010: Box18
+    2300012: Box19
+    2300014: Box20
+    2300016: Box21
+    2300018: Box22
+    2300020: Box23
+    2300022: Box24
+    2300024: Box28
+    2300026: Box29
+    2300028: Box30
+    2300030: Line01
+    2300032: Plane02
+    3300000: Box02
+    3300002: Box14
+    3300004: Box15
+    3300006: Box16
+    3300008: Box17
+    3300010: Box18
+    3300012: Box19
+    3300014: Box20
+    3300016: Box21
+    3300018: Box22
+    3300020: Box23
+    3300022: Box24
+    3300024: Box28
+    3300026: Box29
+    3300028: Box30
+    3300030: Line01
+    3300032: Plane02
+    4300000: Line01
+    4300002: Box18
+    4300004: Box19
+    4300006: Box17
+    4300008: Box21
+    4300010: Box22
+    4300012: Box20
+    4300014: Box16
+    4300016: Box15
+    4300018: Box24
+    4300020: Box23
+    4300022: Box14
+    4300024: Plane02
+    4300026: Box02
+    4300028: Box28
+    4300030: Box29
+    4300032: Box30
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #82'
+    second: {fileID: 2100000, guid: 366205cd89584401d873bc4352d22d17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #83'
+    second: {fileID: 2100000, guid: a3fbc1f73c02941338bce7348a3e4f78, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

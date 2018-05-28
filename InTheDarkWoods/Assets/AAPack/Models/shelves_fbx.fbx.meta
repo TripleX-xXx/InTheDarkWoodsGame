@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 06f93a1dcfd694a52a7f42a86c3c5750
+timeCreated: 1527459887
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BezierCurve.001
+    100002: Cylinder
+    100004: Cylinder.001
+    100006: //RootNode
+    100008: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C"
+    100010: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C.001"
+    100012: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C.002"
+    400000: BezierCurve.001
+    400002: Cylinder
+    400004: Cylinder.001
+    400006: //RootNode
+    400008: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C"
+    400010: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C.001"
+    400012: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C.002"
+    2300000: BezierCurve.001
+    2300002: Cylinder
+    2300004: Cylinder.001
+    2300006: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C"
+    2300008: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C.001"
+    2300010: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C.002"
+    3300000: BezierCurve.001
+    3300002: Cylinder
+    3300004: Cylinder.001
+    3300006: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C"
+    3300008: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C.001"
+    3300010: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C.002"
+    4300000: BezierCurve.001
+    4300002: Cylinder.001
+    4300004: Cylinder
+    4300006: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C"
+    4300008: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C.001"
+    4300010: "\u041F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u044C.002"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 68af0efdd437a44e7aad451d75e926c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: d41d22ed1cd9b4ebeabf92d349fa1d72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 582c7aa17ffc34c23ba194f0d70bf534, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: c15cd4f7739114911ac411dfa57d1047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: dad730c1ffa6542d3a71071bfeb682a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shelf
+    second: {fileID: 2100000, guid: 09d371e6b9ebf4b0083abee9d49f4466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shelf.001
+    second: {fileID: 2100000, guid: 7caa244f654f04cca9e0175cdc5cfabc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
