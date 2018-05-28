@@ -11,6 +11,9 @@ public class SymbolsPuzzle : MonoBehaviour {
     [SerializeField]
     Symbol[] symbolsOff;
 
+    [SerializeField]
+    Door door;
+
     private bool flag;
 
     public void Check()
@@ -26,6 +29,7 @@ public class SymbolsPuzzle : MonoBehaviour {
         }
         if (flag)
         {
+            door.OpenDoor(true);
             Debug.Log("Open");
         }
     }

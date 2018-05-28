@@ -14,34 +14,42 @@ public class MoveWoter : MonoBehaviour {
     Transform platform;
 
     [SerializeField]
+    Door exitDoor;
+
+    [SerializeField]
     public float platformSpeed;
 
     Vector3 direction;
     Transform destinaction;
     bool stop = false;
+    bool flagEnd = false;
     float currendSpeed;
 
     void Start () {
         SetDestinaction(end);
         currendSpeed = platformSpeed;
     }
-	
-	void FixedUpdate () {
 
-        if (Vector3.Distance(platform.transform.position, destinaction.position) >= currendSpeed * Time.fixedDeltaTime)
+	void FixedUpdate () {
+        if (!flagEnd)
         {
-            platform.SetPositionAndRotation((platform.position + direction * currendSpeed * Time.fixedDeltaTime), platform.rotation);
-        }
-        else
-        {
-            if (stop)
+            if (Vector3.Distance(platform.transform.position, destinaction.position) >= currendSpeed * Time.fixedDeltaTime)
             {
-                //co robić kiedy woda opadnie
-                Debug.Log("Door is opened");
+                platform.SetPositionAndRotation((platform.position + direction * currendSpeed * Time.fixedDeltaTime), platform.rotation);
             }
             else
             {
-                Debug.Log("Lose");
+                if (stop)
+                {
+                    //co robić kiedy woda opadnie
+                    Debug.Log("Door is opened");
+                    exitDoor.OpenDoor(true);
+                }
+                else
+                {
+                    Debug.Log("Lose");
+                }
+                flagEnd = true;
             }
         }
     }

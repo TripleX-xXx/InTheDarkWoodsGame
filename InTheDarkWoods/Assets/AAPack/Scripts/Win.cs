@@ -10,24 +10,30 @@ public class Win : MonoBehaviour {
     [SerializeField]
     GameObject[] pipes;
     bool flag;
+    bool flagEnd;
 
 	void Start () {
         flag = true;
+        flagEnd = false;
     }
 
 	void Update () {
-        flag = true;
-        foreach (GameObject go in pipes)
+        if (!flagEnd)
         {
-            if (!go.activeSelf)
+            flag = true;
+            foreach (GameObject go in pipes)
             {
-                flag = false;
+                if (!go.activeSelf)
+                {
+                    flag = false;
+                }
             }
-        }
-        if (flag)
-        {
-            Debug.Log("Win");
-            woter.Stop(true);
+            if (flag)
+            {
+                flagEnd = true;
+                Debug.Log("Win");
+                woter.Stop(true);
+            }
         }
 	}
 }
