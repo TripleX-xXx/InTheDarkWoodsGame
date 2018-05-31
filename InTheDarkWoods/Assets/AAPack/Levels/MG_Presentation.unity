@@ -3252,7 +3252,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4807825648473598, guid: 4b4cfb3746cfa4d45a57bb0b8e7cb3e3, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 24.732
+      value: 24.694
       objectReference: {fileID: 0}
     - target: {fileID: 4807825648473598, guid: 4b4cfb3746cfa4d45a57bb0b8e7cb3e3, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5775,8 +5775,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 592552053}
-  m_LocalRotation: {x: -0.2574071, y: 0.70291924, z: 0.30820683, w: 0.5870731}
-  m_LocalPosition: {x: -15.372177, y: -12.288178, z: 48.363167}
+  m_LocalRotation: {x: -0.44372046, y: 0.0039511668, z: 0.0019590245, w: 0.8961544}
+  m_LocalPosition: {x: -1.7392395, y: -7.7699375, z: 9.584741}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -16636,6 +16636,22 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1093780712089384, guid: 57f7b7c57846bbb40ab89f4023b7e21c, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165805962113048, guid: 57f7b7c57846bbb40ab89f4023b7e21c, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273350486723242, guid: 57f7b7c57846bbb40ab89f4023b7e21c, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587156184543154, guid: 57f7b7c57846bbb40ab89f4023b7e21c, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 57f7b7c57846bbb40ab89f4023b7e21c, type: 2}
   m_IsPrefabParent: 0
@@ -21473,10 +21489,10 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!64 &1962413990
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21487,7 +21503,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: b802926fc285c48ff8dafda4cc48d10b, type: 3}

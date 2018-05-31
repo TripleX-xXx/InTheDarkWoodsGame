@@ -11,6 +11,9 @@ public class PlayerCursor : MonoBehaviour {
     [SerializeField]
     Image[] cursors;
 
+    [SerializeField]
+    float length = 3f;
+
     public enum Cursor
     {
         none,
@@ -24,9 +27,9 @@ public class PlayerCursor : MonoBehaviour {
     void Update()
     {
         RaycastHit hit;
-        Vector3 direction = playerCamera.transform.TransformDirection(Vector3.forward);
-        Debug.DrawRay(playerCamera.transform.position, direction, Color.green,3f);
-        if (Physics.Raycast(playerCamera.transform.position, direction, out hit, 3f))
+        Vector3 direction = playerCamera.transform.TransformDirection(Vector3.forward*length);
+        Debug.DrawRay(playerCamera.transform.position, direction, Color.green,1f);
+        if (Physics.Raycast(playerCamera.transform.position, direction, out hit, length))
         {
             if (hit.collider.CompareTag("Item"))
             {
