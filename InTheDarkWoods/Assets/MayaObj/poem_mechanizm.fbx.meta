@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 7edd43308e8ba4fbba52165631a03443
+timeCreated: 1528055720
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box
+    100002: kabel_1
+    100004: kabel_5
+    100006: //RootNode
+    100008: Przycisk
+    100010: typeMesh1
+    100012: typeMesh2
+    100014: typeMesh3
+    100016: typeMesh4
+    100018: typeMesh5
+    400000: Box
+    400002: kabel_1
+    400004: kabel_5
+    400006: //RootNode
+    400008: Przycisk
+    400010: typeMesh1
+    400012: typeMesh2
+    400014: typeMesh3
+    400016: typeMesh4
+    400018: typeMesh5
+    2300000: Box
+    2300002: kabel_1
+    2300004: kabel_5
+    2300006: Przycisk
+    2300008: typeMesh1
+    2300010: typeMesh2
+    2300012: typeMesh3
+    2300014: typeMesh4
+    2300016: typeMesh5
+    3300000: Box
+    3300002: kabel_1
+    3300004: kabel_5
+    3300006: Przycisk
+    3300008: typeMesh1
+    3300010: typeMesh2
+    3300012: typeMesh3
+    3300014: typeMesh4
+    3300016: typeMesh5
+    4300000: Box
+    4300002: kabel_1
+    4300004: kabel_5
+    4300006: Przycisk
+    4300008: typeMesh1
+    4300010: typeMesh2
+    4300012: typeMesh3
+    4300014: typeMesh4
+    4300016: typeMesh5
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark_specular_fabric
+    second: {fileID: 2100000, guid: 3af6f1835fe83483cb884bd83bf427d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 64251f1a3d3d14a56996113cd6b810b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn
+    second: {fileID: 2100000, guid: 039af602e75bf4b4cac84b8b9573f083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn1
+    second: {fileID: 2100000, guid: 179a9c9eb1f5d4ade8cd662189b1e2d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn2
+    second: {fileID: 2100000, guid: 5844037b7e943455aa45ac97bd04cef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn3
+    second: {fileID: 2100000, guid: 3ac930363bd4e4ec6a6e23282fe2e90a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn4
+    second: {fileID: 2100000, guid: 5e94efe672f3b4f6c8c964cf6e3e85d2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
