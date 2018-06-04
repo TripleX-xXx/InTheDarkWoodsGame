@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -88,6 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -19782,6 +19783,22 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ac7bb9acc26f32f469e25f6ea2e18c5a, type: 2}
+    - target: {fileID: 2300014, guid: bf11027df4610474d9ccfb9f084db6d4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b959abe4616a463eb11be75fcbc5c0e, type: 2}
+    - target: {fileID: 2300002, guid: bf11027df4610474d9ccfb9f084db6d4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b959abe4616a463eb11be75fcbc5c0e, type: 2}
+    - target: {fileID: 2300012, guid: bf11027df4610474d9ccfb9f084db6d4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55cee2e0675474906aee59b5d337cdaa, type: 2}
+    - target: {fileID: 2300008, guid: bf11027df4610474d9ccfb9f084db6d4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55cee2e0675474906aee59b5d337cdaa, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf11027df4610474d9ccfb9f084db6d4, type: 3}
   m_IsPrefabParent: 0
@@ -20339,6 +20356,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -25185,7 +25203,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400014, guid: 2c776d0296aa049bdad102d218128420, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.31
+      value: -12.43
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 2c776d0296aa049bdad102d218128420, type: 3}
       propertyPath: m_LocalPosition.y
@@ -46966,7 +46984,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400014, guid: 2c776d0296aa049bdad102d218128420, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.219
+      value: -17.345
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 2c776d0296aa049bdad102d218128420, type: 3}
       propertyPath: m_LocalPosition.y
@@ -48099,11 +48117,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400014, guid: 2c776d0296aa049bdad102d218128420, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.91
+      value: -16.88
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 2c776d0296aa049bdad102d218128420, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.72
+      value: 6.783
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 2c776d0296aa049bdad102d218128420, type: 3}
       propertyPath: m_LocalPosition.z
@@ -59958,6 +59976,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
