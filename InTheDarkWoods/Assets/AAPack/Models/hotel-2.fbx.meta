@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: bf11027df4610474d9ccfb9f084db6d4
+timeCreated: 1528058815
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: _pov
+    100002: _pov.001
+    100004: _pov.002
+    100006: _pov.003
+    100008: _pov.004
+    100010: _pov.005
+    100012: _pov2
+    100014: _pov2.001
+    100016: _pov2.002
+    100018: _pov2.003
+    100020: _pov2.004
+    100022: _pov2.005
+    100024: _pov2.006
+    100026: _pov2.007
+    100028: _pov2.008
+    100030: _pov2.009
+    100032: _pov2.010
+    100034: first_pov
+    100036: first_pov.001
+    100038: first_pov.002
+    100040: first_pov.003
+    100042: first_pov.004
+    100044: first_pov.005
+    100046: first_pov.006
+    100048: first_pov.007
+    100050: first_pov.008
+    100052: first_pov.009
+    100054: first_pov.010
+    100056: first_pov.011
+    100058: first_pov.012
+    100060: first_pov.013
+    100062: first_pov.014
+    100064: first_pov.015
+    100066: first_pov.016
+    100068: first_pov.017
+    100070: first_pov.018
+    100072: //RootNode
+    100074: pidval
+    100076: pidval.001
+    100078: pidval.002
+    100080: pidval.003
+    100082: pidval.004
+    400000: _pov
+    400002: _pov.001
+    400004: _pov.002
+    400006: _pov.003
+    400008: _pov.004
+    400010: _pov.005
+    400012: _pov2
+    400014: _pov2.001
+    400016: _pov2.002
+    400018: _pov2.003
+    400020: _pov2.004
+    400022: _pov2.005
+    400024: _pov2.006
+    400026: _pov2.007
+    400028: _pov2.008
+    400030: _pov2.009
+    400032: _pov2.010
+    400034: first_pov
+    400036: first_pov.001
+    400038: first_pov.002
+    400040: first_pov.003
+    400042: first_pov.004
+    400044: first_pov.005
+    400046: first_pov.006
+    400048: first_pov.007
+    400050: first_pov.008
+    400052: first_pov.009
+    400054: first_pov.010
+    400056: first_pov.011
+    400058: first_pov.012
+    400060: first_pov.013
+    400062: first_pov.014
+    400064: first_pov.015
+    400066: first_pov.016
+    400068: first_pov.017
+    400070: first_pov.018
+    400072: //RootNode
+    400074: pidval
+    400076: pidval.001
+    400078: pidval.002
+    400080: pidval.003
+    400082: pidval.004
+    2300000: _pov
+    2300002: _pov.001
+    2300004: _pov.002
+    2300006: _pov.003
+    2300008: _pov.004
+    2300010: _pov.005
+    2300012: _pov2
+    2300014: _pov2.001
+    2300016: _pov2.002
+    2300018: _pov2.003
+    2300020: _pov2.004
+    2300022: _pov2.005
+    2300024: _pov2.006
+    2300026: _pov2.007
+    2300028: _pov2.008
+    2300030: _pov2.009
+    2300032: _pov2.010
+    2300034: first_pov
+    2300036: first_pov.001
+    2300038: first_pov.002
+    2300040: first_pov.003
+    2300042: first_pov.004
+    2300044: first_pov.005
+    2300046: first_pov.006
+    2300048: first_pov.007
+    2300050: first_pov.008
+    2300052: first_pov.009
+    2300054: first_pov.010
+    2300056: first_pov.011
+    2300058: first_pov.012
+    2300060: first_pov.013
+    2300062: first_pov.014
+    2300064: first_pov.015
+    2300066: first_pov.016
+    2300068: first_pov.017
+    2300070: first_pov.018
+    2300072: pidval
+    2300074: pidval.001
+    2300076: pidval.002
+    2300078: pidval.003
+    2300080: pidval.004
+    3300000: _pov
+    3300002: _pov.001
+    3300004: _pov.002
+    3300006: _pov.003
+    3300008: _pov.004
+    3300010: _pov.005
+    3300012: _pov2
+    3300014: _pov2.001
+    3300016: _pov2.002
+    3300018: _pov2.003
+    3300020: _pov2.004
+    3300022: _pov2.005
+    3300024: _pov2.006
+    3300026: _pov2.007
+    3300028: _pov2.008
+    3300030: _pov2.009
+    3300032: _pov2.010
+    3300034: first_pov
+    3300036: first_pov.001
+    3300038: first_pov.002
+    3300040: first_pov.003
+    3300042: first_pov.004
+    3300044: first_pov.005
+    3300046: first_pov.006
+    3300048: first_pov.007
+    3300050: first_pov.008
+    3300052: first_pov.009
+    3300054: first_pov.010
+    3300056: first_pov.011
+    3300058: first_pov.012
+    3300060: first_pov.013
+    3300062: first_pov.014
+    3300064: first_pov.015
+    3300066: first_pov.016
+    3300068: first_pov.017
+    3300070: first_pov.018
+    3300072: pidval
+    3300074: pidval.001
+    3300076: pidval.002
+    3300078: pidval.003
+    3300080: pidval.004
+    4300000: pidval
+    4300002: pidval.004
+    4300004: pidval.003
+    4300006: pidval.002
+    4300008: pidval.001
+    4300010: first_pov
+    4300012: first_pov.018
+    4300014: first_pov.017
+    4300016: first_pov.016
+    4300018: first_pov.015
+    4300020: first_pov.014
+    4300022: first_pov.013
+    4300024: first_pov.012
+    4300026: first_pov.011
+    4300028: first_pov.010
+    4300030: first_pov.009
+    4300032: first_pov.008
+    4300034: first_pov.007
+    4300036: first_pov.006
+    4300038: first_pov.005
+    4300040: first_pov.004
+    4300042: first_pov.003
+    4300044: first_pov.002
+    4300046: first_pov.001
+    4300048: _pov2
+    4300050: _pov2.010
+    4300052: _pov2.009
+    4300054: _pov2.008
+    4300056: _pov2.007
+    4300058: _pov2.006
+    4300060: _pov2.005
+    4300062: _pov2.004
+    4300064: _pov2.003
+    4300066: _pov2.002
+    4300068: _pov2.001
+    4300070: _pov
+    4300072: _pov.005
+    4300074: _pov.004
+    4300076: _pov.003
+    4300078: _pov.002
+    4300080: _pov.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling
+    second: {fileID: 2100000, guid: 2cdd532d913244533aa32f5356e834ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor1
+    second: {fileID: 2100000, guid: e8d539224202f4e76a023decc98a8ca4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor2
+    second: {fileID: 2100000, guid: c5817c826a06b4efabc6c6cf0e6a3a61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor3
+    second: {fileID: 2100000, guid: 312dc4eb9564e413a9ddaf858017bc01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor4
+    second: {fileID: 2100000, guid: 76bf1113ee28840f190ba3e5ea607862, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: elevation
+    second: {fileID: 2100000, guid: 42d3c54ad5e3442d89021fbeab421070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floorBasementCorridor
+    second: {fileID: 2100000, guid: 3616905821d084fc48bc63dd72ce7954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floorBasementRoom
+    second: {fileID: 2100000, guid: ba67066ec5c0e44b796ba695c77b21c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hole
+    second: {fileID: 2100000, guid: 86b3093b78ece4a5a99f63d69eacaaf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level0BigRoomFloor2
+    second: {fileID: 2100000, guid: 3d40de2e1cade42289020528993f99cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level0BigRoomWall
+    second: {fileID: 2100000, guid: 667f13430da1f4f30a42c663c0a02040, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level0CorridorWall
+    second: {fileID: 2100000, guid: 440d046eaba9f43ba8485df0610409f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level0KitchenFloor
+    second: {fileID: 2100000, guid: 15b9b40fdd60042d4b27ef0a5c0ff988, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level0KitchenWall
+    second: {fileID: 2100000, guid: bf58ed0cecebe44a485fb200684f3d23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level0RoomFloor
+    second: {fileID: 2100000, guid: b152c5e9bd3bc4f35887ae6d904a1c5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level0StoreroomFloor
+    second: {fileID: 2100000, guid: e1894f26d4bda4883b7edc3ed6d1f69a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level0StoreroomWall
+    second: {fileID: 2100000, guid: b178cb187f7de43ee860f0b18827c8e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level1BathroomFloor
+    second: {fileID: 2100000, guid: 70fcee21fa6ee407289f84646407249e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level1BathroomWall
+    second: {fileID: 2100000, guid: ca9eedccb63494dfab26e6aafa485e7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level1CorridorFloor
+    second: {fileID: 2100000, guid: 41620812cfc7840058fc99409b35f65e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level1CorridorWall
+    second: {fileID: 2100000, guid: a64ff20402f7d4b7a94c5da720be5f03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level1RoomFloor
+    second: {fileID: 2100000, guid: 14c3802785dd3438ba8d5a996866e28b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: level1RoomWall
+    second: {fileID: 2100000, guid: 47647a7b0cacf4c98806fc98bba59c6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: levle0BigRoomFloor1
+    second: {fileID: 2100000, guid: 06c5834d0468d44d08e4a19c1fa104be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: levle0CorridroFloor
+    second: {fileID: 2100000, guid: 770089e0212e54b719132b74b7dfc794, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: levle0RoomWall
+    second: {fileID: 2100000, guid: 0d9856a1f890e46848c7406c2c541ec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: 30b7bd99cdc8646aab7fc894e7ddf47d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofWindow
+    second: {fileID: 2100000, guid: 1fb316e938aa04618a27807cfe820565, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: staircaseWall
+    second: {fileID: 2100000, guid: 7423718d693864aa1920db8fc8569187, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairs
+    second: {fileID: 2100000, guid: bb1b06a25411f405eae585fa4037ac7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wallBasementCorridor
+    second: {fileID: 2100000, guid: 29a31ff60a23e45959cb1a0b81533c96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wallBasementRoom
+    second: {fileID: 2100000, guid: 19b31ca89506a47dbb6d7ad555ef9920, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
