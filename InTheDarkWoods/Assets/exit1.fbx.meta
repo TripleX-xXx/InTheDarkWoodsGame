@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 875ba864664204dba95ff92fe0aa9a6a
+timeCreated: 1528564914
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ChamferBox001
+    100002: ChamferBox002
+    100004: ChamferBox003
+    100006: ChamferBox004
+    100008: ChamferBox005
+    100010: ChamferBox006
+    100012: ChamferBox007
+    100014: ChamferBox008
+    100016: ChamferBox009
+    100018: ChamferBox010
+    100020: ChamferBox011
+    100022: //RootNode
+    100024: Line243
+    100026: Line245
+    100028: Line246
+    100030: Line247
+    100032: Line248
+    100034: Line249
+    100036: Rectangle001
+    100038: Rectangle002
+    100040: Rectangle003
+    100042: VRayLight041
+    100044: VRayLight043
+    100046: VRayLight044
+    100048: VRayLight045
+    100050: VRayLight046
+    400000: ChamferBox001
+    400002: ChamferBox002
+    400004: ChamferBox003
+    400006: ChamferBox004
+    400008: ChamferBox005
+    400010: ChamferBox006
+    400012: ChamferBox007
+    400014: ChamferBox008
+    400016: ChamferBox009
+    400018: ChamferBox010
+    400020: ChamferBox011
+    400022: //RootNode
+    400024: Line243
+    400026: Line245
+    400028: Line246
+    400030: Line247
+    400032: Line248
+    400034: Line249
+    400036: Rectangle001
+    400038: Rectangle002
+    400040: Rectangle003
+    400042: VRayLight041
+    400044: VRayLight043
+    400046: VRayLight044
+    400048: VRayLight045
+    400050: VRayLight046
+    2300000: ChamferBox001
+    2300002: ChamferBox002
+    2300004: ChamferBox003
+    2300006: ChamferBox004
+    2300008: ChamferBox005
+    2300010: ChamferBox006
+    2300012: ChamferBox007
+    2300014: ChamferBox008
+    2300016: ChamferBox009
+    2300018: ChamferBox010
+    2300020: ChamferBox011
+    2300022: Line243
+    2300024: Line245
+    2300026: Line246
+    2300028: Line247
+    2300030: Line248
+    2300032: Line249
+    2300034: Rectangle001
+    2300036: Rectangle002
+    2300038: Rectangle003
+    3300000: ChamferBox001
+    3300002: ChamferBox002
+    3300004: ChamferBox003
+    3300006: ChamferBox004
+    3300008: ChamferBox005
+    3300010: ChamferBox006
+    3300012: ChamferBox007
+    3300014: ChamferBox008
+    3300016: ChamferBox009
+    3300018: ChamferBox010
+    3300020: ChamferBox011
+    3300022: Line243
+    3300024: Line245
+    3300026: Line246
+    3300028: Line247
+    3300030: Line248
+    3300032: Line249
+    3300034: Rectangle001
+    3300036: Rectangle002
+    3300038: Rectangle003
+    4300000: ChamferBox001
+    4300002: Line243
+    4300004: Rectangle001
+    4300006: ChamferBox002
+    4300008: Rectangle002
+    4300010: ChamferBox003
+    4300012: ChamferBox004
+    4300014: Line245
+    4300016: ChamferBox005
+    4300018: Rectangle003
+    4300020: ChamferBox006
+    4300022: ChamferBox007
+    4300024: ChamferBox008
+    4300026: Line246
+    4300028: Line247
+    4300030: ChamferBox009
+    4300032: ChamferBox010
+    4300034: Line248
+    4300036: ChamferBox011
+    4300038: Line249
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2
+    second: {fileID: 2100000, guid: b3386f47815ba4f88ae78eaa68f04ade, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3
+    second: {fileID: 2100000, guid: 1750b1fe424f94ac7bd903c0c26de4d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: feac5dd371ab64361a45a874346a575e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: griliato
+    second: {fileID: 2100000, guid: 8262ba3fb908148b6b7abbae91f413c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 64251f1a3d3d14a56996113cd6b810b9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
