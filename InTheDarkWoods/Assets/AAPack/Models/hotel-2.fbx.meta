@@ -212,6 +212,47 @@ ModelImporter:
     4300076: _pov.003
     4300078: _pov.002
     4300080: _pov.001
+    6400000: _pov
+    6400002: _pov.001
+    6400004: _pov.002
+    6400006: _pov.003
+    6400008: _pov.004
+    6400010: _pov.005
+    6400012: _pov2
+    6400014: _pov2.001
+    6400016: _pov2.002
+    6400018: _pov2.003
+    6400020: _pov2.004
+    6400022: _pov2.005
+    6400024: _pov2.006
+    6400026: _pov2.007
+    6400028: _pov2.008
+    6400030: _pov2.009
+    6400032: _pov2.010
+    6400034: first_pov
+    6400036: first_pov.001
+    6400038: first_pov.002
+    6400040: first_pov.003
+    6400042: first_pov.004
+    6400044: first_pov.005
+    6400046: first_pov.006
+    6400048: first_pov.007
+    6400050: first_pov.008
+    6400052: first_pov.009
+    6400054: first_pov.010
+    6400056: first_pov.011
+    6400058: first_pov.012
+    6400060: first_pov.013
+    6400062: first_pov.014
+    6400064: first_pov.015
+    6400066: first_pov.016
+    6400068: first_pov.017
+    6400070: first_pov.018
+    6400072: pidval
+    6400074: pidval.001
+    6400076: pidval.002
+    6400078: pidval.003
+    6400080: pidval.004
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -404,7 +445,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

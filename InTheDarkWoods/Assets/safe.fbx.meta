@@ -1,0 +1,502 @@
+fileFormatVersion: 2
+guid: 0ed3675c228e14192ade4ec7da0b2240
+timeCreated: 1528549244
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Boole.1
+    100002: CASE
+    100004: Cube
+    100006: Cube-Null Object.1
+    100008: Cube.1
+    100010: Cube.1.2
+    100012: Cube.1.3
+    100014: Cube.2
+    100016: Cube.2.2
+    100018: Cube.2.3
+    100020: Cube.3
+    100022: Cube.3.2
+    100024: Cube.3.3
+    100026: Cube.4
+    100028: Cube.4.2
+    100030: Cube.5
+    100032: Cube.5.2
+    100034: Cube.6
+    100036: Cube.6.2
+    100038: Cube.7
+    100040: Cube.7.2
+    100042: Cube.8
+    100044: Cube.9
+    100046: Cube/0
+    100048: Cube/1
+    100050: Cylinder
+    100052: Cylinder.1
+    100054: Cylinder.1.2
+    100056: Cylinder.1.3
+    100058: Cylinder.2
+    100060: Cylinder.2.2
+    100062: Cylinder.2.3
+    100064: Cylinder.3
+    100066: Cylinder.3.2
+    100068: Cylinder.3.3
+    100070: Cylinder.4
+    100072: Cylinder.5
+    100074: DOOR
+    100076: Enviroment
+    100078: INVIRO
+    100080: Licht
+    100082: Licht.2
+    100084: Licht.3
+    100086: Light
+    100088: Light.1
+    100090: Light.2
+    100092: Light.3
+    100094: mechanizm_poema:transform1
+    100096: mechanizm_poema:transform2
+    100098: mechanizm_poema:transform3
+    100100: mechanizm_poema:transform4
+    100102: mechanizm_poema:transform5
+    100104: Null Object
+    100106: Null Object.1
+    100108: Null Object.2
+    100110: Null Object.3
+    100112: Plane
+    100114: pPlane1
+    100116: //RootNode
+    100118: transform1
+    100120: transform10
+    100122: transform11
+    100124: transform12
+    100126: transform2
+    100128: transform3
+    100130: transform4
+    100132: transform5
+    100134: transform6
+    100136: transform7
+    100138: transform8
+    100140: transform9
+    100142: typeMesh1
+    100144: typeMesh10
+    100146: typeMesh11
+    100148: typeMesh12
+    100150: typeMesh2
+    100152: typeMesh3
+    100154: typeMesh4
+    100156: typeMesh5
+    100158: typeMesh6
+    100160: typeMesh7
+    100162: typeMesh8
+    100164: typeMesh9
+    400000: Boole.1
+    400002: CASE
+    400004: Cube
+    400006: Cube-Null Object.1
+    400008: Cube.1
+    400010: Cube.1.2
+    400012: Cube.1.3
+    400014: Cube.2
+    400016: Cube.2.2
+    400018: Cube.2.3
+    400020: Cube.3
+    400022: Cube.3.2
+    400024: Cube.3.3
+    400026: Cube.4
+    400028: Cube.4.2
+    400030: Cube.5
+    400032: Cube.5.2
+    400034: Cube.6
+    400036: Cube.6.2
+    400038: Cube.7
+    400040: Cube.7.2
+    400042: Cube.8
+    400044: Cube.9
+    400046: Cube/0
+    400048: Cube/1
+    400050: Cylinder
+    400052: Cylinder.1
+    400054: Cylinder.1.2
+    400056: Cylinder.1.3
+    400058: Cylinder.2
+    400060: Cylinder.2.2
+    400062: Cylinder.2.3
+    400064: Cylinder.3
+    400066: Cylinder.3.2
+    400068: Cylinder.3.3
+    400070: Cylinder.4
+    400072: Cylinder.5
+    400074: DOOR
+    400076: Enviroment
+    400078: INVIRO
+    400080: Licht
+    400082: Licht.2
+    400084: Licht.3
+    400086: Light
+    400088: Light.1
+    400090: Light.2
+    400092: Light.3
+    400094: mechanizm_poema:transform1
+    400096: mechanizm_poema:transform2
+    400098: mechanizm_poema:transform3
+    400100: mechanizm_poema:transform4
+    400102: mechanizm_poema:transform5
+    400104: Null Object
+    400106: Null Object.1
+    400108: Null Object.2
+    400110: Null Object.3
+    400112: Plane
+    400114: pPlane1
+    400116: //RootNode
+    400118: transform1
+    400120: transform10
+    400122: transform11
+    400124: transform12
+    400126: transform2
+    400128: transform3
+    400130: transform4
+    400132: transform5
+    400134: transform6
+    400136: transform7
+    400138: transform8
+    400140: transform9
+    400142: typeMesh1
+    400144: typeMesh10
+    400146: typeMesh11
+    400148: typeMesh12
+    400150: typeMesh2
+    400152: typeMesh3
+    400154: typeMesh4
+    400156: typeMesh5
+    400158: typeMesh6
+    400160: typeMesh7
+    400162: typeMesh8
+    400164: typeMesh9
+    2300000: Cube
+    2300002: Cube-Null Object.1
+    2300004: Cube.1
+    2300006: Cube.1.2
+    2300008: Cube.1.3
+    2300010: Cube.2
+    2300012: Cube.2.2
+    2300014: Cube.2.3
+    2300016: Cube.3
+    2300018: Cube.3.2
+    2300020: Cube.3.3
+    2300022: Cube.4
+    2300024: Cube.4.2
+    2300026: Cube.5
+    2300028: Cube.5.2
+    2300030: Cube.6
+    2300032: Cube.6.2
+    2300034: Cube.7
+    2300036: Cube.7.2
+    2300038: Cube.8
+    2300040: Cube.9
+    2300042: Cube/0
+    2300044: Cube/1
+    2300046: Cylinder
+    2300048: Cylinder.1
+    2300050: Cylinder.1.2
+    2300052: Cylinder.1.3
+    2300054: Cylinder.2
+    2300056: Cylinder.2.2
+    2300058: Cylinder.2.3
+    2300060: Cylinder.3
+    2300062: Cylinder.3.2
+    2300064: Cylinder.3.3
+    2300066: Cylinder.4
+    2300068: Cylinder.5
+    2300070: Plane
+    2300072: pPlane1
+    2300074: typeMesh1
+    2300076: typeMesh10
+    2300078: typeMesh11
+    2300080: typeMesh12
+    2300082: typeMesh2
+    2300084: typeMesh3
+    2300086: typeMesh4
+    2300088: typeMesh5
+    2300090: typeMesh6
+    2300092: typeMesh7
+    2300094: typeMesh8
+    2300096: typeMesh9
+    3300000: Cube
+    3300002: Cube-Null Object.1
+    3300004: Cube.1
+    3300006: Cube.1.2
+    3300008: Cube.1.3
+    3300010: Cube.2
+    3300012: Cube.2.2
+    3300014: Cube.2.3
+    3300016: Cube.3
+    3300018: Cube.3.2
+    3300020: Cube.3.3
+    3300022: Cube.4
+    3300024: Cube.4.2
+    3300026: Cube.5
+    3300028: Cube.5.2
+    3300030: Cube.6
+    3300032: Cube.6.2
+    3300034: Cube.7
+    3300036: Cube.7.2
+    3300038: Cube.8
+    3300040: Cube.9
+    3300042: Cube/0
+    3300044: Cube/1
+    3300046: Cylinder
+    3300048: Cylinder.1
+    3300050: Cylinder.1.2
+    3300052: Cylinder.1.3
+    3300054: Cylinder.2
+    3300056: Cylinder.2.2
+    3300058: Cylinder.2.3
+    3300060: Cylinder.3
+    3300062: Cylinder.3.2
+    3300064: Cylinder.3.3
+    3300066: Cylinder.4
+    3300068: Cylinder.5
+    3300070: Plane
+    3300072: pPlane1
+    3300074: typeMesh1
+    3300076: typeMesh10
+    3300078: typeMesh11
+    3300080: typeMesh12
+    3300082: typeMesh2
+    3300084: typeMesh3
+    3300086: typeMesh4
+    3300088: typeMesh5
+    3300090: typeMesh6
+    3300092: typeMesh7
+    3300094: typeMesh8
+    3300096: typeMesh9
+    4300000: Cube.8
+    4300002: Cube.7
+    4300004: Cube.6
+    4300006: Cube.5
+    4300008: Cube.4
+    4300010: Cube.3
+    4300012: Cube.2
+    4300014: Cube.1
+    4300016: Cube
+    4300018: Cube.9
+    4300020: Cube/0
+    4300022: Cube/1
+    4300024: Cylinder.1
+    4300026: Cylinder
+    4300028: Cylinder.2
+    4300030: Cylinder.1.2
+    4300032: Cylinder.2.2
+    4300034: Cube.1.2
+    4300036: Cube.2.2
+    4300038: Cube.3.2
+    4300040: Cylinder.3
+    4300042: Cylinder.3.2
+    4300044: Cube.4.2
+    4300046: Cylinder.4
+    4300048: Cylinder.3.3
+    4300050: Cube.5.2
+    4300052: Cylinder.2.3
+    4300054: Cylinder.1.3
+    4300056: Cylinder.5
+    4300058: Cube.2.3
+    4300060: Cube-Null Object.1
+    4300062: Cube.6.2
+    4300064: Cube.7.2
+    4300066: Plane
+    4300068: Cube.1.3
+    4300070: Cube.3.3
+    4300072: typeMesh1
+    4300074: typeMesh2
+    4300076: typeMesh3
+    4300078: typeMesh4
+    4300080: typeMesh5
+    4300082: typeMesh6
+    4300084: typeMesh7
+    4300086: typeMesh8
+    4300088: typeMesh9
+    4300090: typeMesh10
+    4300092: typeMesh11
+    4300094: typeMesh12
+    4300096: pPlane1
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Licht
+    10800002: Licht.2
+    10800004: Licht.3
+    10800006: Light
+    10800008: Light.1
+    10800010: Light.2
+    10800012: Light.3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLACK
+    second: {fileID: 2100000, guid: 059525c6a9c6c461ca809abb5fc5827d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cube.2.2Mat
+    second: {fileID: 2100000, guid: 44034e99427b44ad9b2f335b8d6bd746, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat
+    second: {fileID: 2100000, guid: 7c9f1aaa90e0a49ddbd22b5fbf819614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1
+    second: {fileID: 2100000, guid: 71c9184731aa44e2798fe794830f4849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STEEL
+    second: {fileID: 2100000, guid: 874910de23b574258b6bca2cbf21fce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alluminum
+    second: {fileID: 2100000, guid: 5b938b312f71a4e738be096a7ca3fac0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 64251f1a3d3d14a56996113cd6b810b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn
+    second: {fileID: 2100000, guid: 039af602e75bf4b4cac84b8b9573f083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn1
+    second: {fileID: 2100000, guid: 179a9c9eb1f5d4ade8cd662189b1e2d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn10
+    second: {fileID: 2100000, guid: 60a3e2225a59b404da1baf18cf5ab5cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn11
+    second: {fileID: 2100000, guid: 1eda1d2a6b0824f0fb2d7332eded34e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn2
+    second: {fileID: 2100000, guid: 5844037b7e943455aa45ac97bd04cef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn3
+    second: {fileID: 2100000, guid: 3ac930363bd4e4ec6a6e23282fe2e90a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn4
+    second: {fileID: 2100000, guid: 5e94efe672f3b4f6c8c964cf6e3e85d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn5
+    second: {fileID: 2100000, guid: b5eabc83f721c48729ccd47570fb3553, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn6
+    second: {fileID: 2100000, guid: 2fb60808e98ca4280863b18e45911229, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn7
+    second: {fileID: 2100000, guid: 32756119b33a545cbb0759ceb04adec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn8
+    second: {fileID: 2100000, guid: 0dbef8fa5e9a74f0eb8d1994dc4009c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn9
+    second: {fileID: 2100000, guid: 9860c4517f89c415da7845be4e0899f7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
