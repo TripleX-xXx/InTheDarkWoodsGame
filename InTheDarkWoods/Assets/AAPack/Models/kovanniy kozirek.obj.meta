@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 8c4b7001f5020465ea0a5377743b3092
+timeCreated: 1528669093
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cylinder001
+    100002: //RootNode
+    100004: Line008
+    100006: Line009
+    100008: Line020
+    100010: Line021
+    100012: Line022
+    100014: Shape001
+    100016: Shape002
+    100018: Shape003
+    400000: Cylinder001
+    400002: //RootNode
+    400004: Line008
+    400006: Line009
+    400008: Line020
+    400010: Line021
+    400012: Line022
+    400014: Shape001
+    400016: Shape002
+    400018: Shape003
+    2300000: Cylinder001
+    2300002: Line008
+    2300004: Line009
+    2300006: Line020
+    2300008: Line021
+    2300010: Line022
+    2300012: Shape001
+    2300014: Shape002
+    2300016: Shape003
+    3300000: Cylinder001
+    3300002: Line008
+    3300004: Line009
+    3300006: Line020
+    3300008: Line021
+    3300010: Line022
+    3300012: Shape001
+    3300014: Shape002
+    3300016: Shape003
+    4300000: Cylinder001
+    4300002: Line008
+    4300004: Line009
+    4300006: Line020
+    4300008: Line021
+    4300010: Line022
+    4300012: Shape001
+    4300014: Shape002
+    4300016: Shape003
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder001Mat
+    second: {fileID: 2100000, guid: 930dc0bf48b3d434a81d76ac5a00853b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line008Mat
+    second: {fileID: 2100000, guid: fef156f27cd6146c4b24ca70f4722d3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line009Mat
+    second: {fileID: 2100000, guid: d34eb43de206643a2ad39acd326c6ecd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line020Mat
+    second: {fileID: 2100000, guid: 96995f75e578d4c2d91e6f0d003708e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line021Mat
+    second: {fileID: 2100000, guid: 4ac547fcf85a7473584d79ef6988a84d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line022Mat
+    second: {fileID: 2100000, guid: add4f403355994e6195f4ba1996b9427, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape001Mat
+    second: {fileID: 2100000, guid: 44208ca55e9ba4ac0bd62fc38177c8ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape002Mat
+    second: {fileID: 2100000, guid: ddbc13f7bd2e54325bcf6713820aeaa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape003Mat
+    second: {fileID: 2100000, guid: 4a50643279aad479bbd7b63f88512061, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
