@@ -20,7 +20,7 @@ public class Door : MonoBehaviour , IInteractive{
     AudioSource OpenLockedSound;
 
     [SerializeField]
-    bool interable = true;
+    public bool interable = true;
 
     [SerializeField]
     bool isOpen = false;

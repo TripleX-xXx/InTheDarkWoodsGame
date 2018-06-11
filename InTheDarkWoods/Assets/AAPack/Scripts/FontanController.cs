@@ -10,6 +10,8 @@ public class FontanController : MonoBehaviour {
     [SerializeField]
     GameObject play;
 
+    bool flag = false;
+
     EllipsoidParticleEmitter particle;
 
     private void Start()
@@ -18,13 +20,25 @@ public class FontanController : MonoBehaviour {
     }
 
     void Update () {
-		if(!stop.activeSelf && play.activeSelf)
+        if (flag)
         {
-            particle.emit = true;
+            if (!stop.activeSelf && play.activeSelf)
+            {
+                particle.emit = true;
+            }
+            else
+            {
+                particle.emit = false;
+            }
         }
         else
         {
             particle.emit = false;
         }
 	}
+
+    public void OnOff(bool f)
+    {
+        flag = f;
+    }
 }
