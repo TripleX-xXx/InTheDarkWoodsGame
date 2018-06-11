@@ -10,7 +10,7 @@ public class Antidote : MonoBehaviour ,IInteractive{
     public void OnAction(GameObject player)
     {
         if (drinkingSound != null) drinkingSound.Play();
-        DestroyObject(this);
+        DestroyObject(gameObject);
     }
 
     public PlayerCursor.Cursor OnFocused()
