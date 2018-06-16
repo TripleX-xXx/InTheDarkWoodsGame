@@ -13,6 +13,7 @@ public class DoorTrap : MonoBehaviour {
         {
             door.OpenDoor(false);
             door.locked = true;
+            DestroyObject(gameObject);
         }
     }
 

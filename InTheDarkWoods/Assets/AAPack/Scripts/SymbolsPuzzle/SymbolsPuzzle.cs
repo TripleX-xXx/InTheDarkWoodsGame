@@ -30,7 +30,6 @@ public class SymbolsPuzzle : MonoBehaviour {
         if (flag)
         {
             door.OpenDoor(true);
-            Debug.Log("Open");
         }
     }
 

@@ -22,12 +22,19 @@ public class MoveWoter : MonoBehaviour {
     Vector3 direction;
     Transform destinaction;
     bool stop = false;
-    bool flagEnd = false;
+    public bool flagEnd = false;
     float currendSpeed;
 
     void Start () {
         SetDestinaction(end);
         currendSpeed = platformSpeed;
+    }
+
+    public float Pressure()
+    {
+        float d = Mathf.Abs(end.position.y - start.position.y);
+        float c = Mathf.Abs(platform.position.y - start.position.y);
+        return c / d;
     }
 
 	void FixedUpdate () {
@@ -42,7 +49,7 @@ public class MoveWoter : MonoBehaviour {
                 if (stop)
                 {
                     //co robić kiedy woda opadnie
-                    Debug.Log("Door is opened");
+                    exitDoor.interable = true;
                     exitDoor.OpenDoor(true);
                 }
                 else
