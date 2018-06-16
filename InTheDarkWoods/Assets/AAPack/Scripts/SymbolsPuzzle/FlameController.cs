@@ -32,6 +32,7 @@ public class FlameController : MonoBehaviour {
     {
         timer = 0;
         isOn = false;
+        Stop();
     }
 
     private void Update()
