@@ -19,6 +19,7 @@ public class FlameController : MonoBehaviour {
         {
             ft.OnOff(false);
         }
+        isOn = false;
     }
 
     public void Run()
@@ -37,11 +38,18 @@ public class FlameController : MonoBehaviour {
 
     private void Update()
     {
-        timer += Time.deltaTime;
-        if (((int)(timer / deltaTime)) < fireWalls.Length && 
-            !fireWalls[(int)(timer / deltaTime)].isOn)
+        if (isOn)
         {
-            fireWalls[(int)(timer / deltaTime)].OnOff(true);
+            timer += Time.deltaTime;
+            if (((int)(timer / deltaTime)) < fireWalls.Length &&
+                !fireWalls[(int)(timer / deltaTime)].isOn)
+            {
+                fireWalls[(int)(timer / deltaTime)].OnOff(true);
+            }
+            if (fireWalls.Length < timer)
+            {
+                //todo kill
+            }
         }
     }
 }
