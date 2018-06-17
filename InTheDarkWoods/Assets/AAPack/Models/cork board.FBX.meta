@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: fb04ff9e9618347e2ba771b9522b72fc
+timeCreated: 1529234480
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object001
+    100004: Object003
+    100006: Object005
+    100008: Object007
+    100010: Object009
+    100012: Object011
+    100014: Object013
+    100016: Object015
+    100018: Object017
+    100020: Object019
+    100022: Object021
+    100024: Object023
+    100026: Object025
+    100028: Object027
+    100030: Object029
+    100032: Object031
+    100034: Object033
+    100036: Object035
+    100038: Object036
+    100040: Object037
+    100042: Object038
+    100044: Object039
+    100046: Object040
+    100048: poster
+    100050: Rectangle001
+    100052: Rectangle002
+    100054: Rectangle004
+    100056: Rectangle005
+    100058: Rectangle006
+    100060: Rectangle007
+    100062: Rectangle008
+    100064: Rectangle009
+    100066: Rectangle010
+    100068: Rectangle011
+    100070: Rectangle012
+    400000: //RootNode
+    400002: Object001
+    400004: Object003
+    400006: Object005
+    400008: Object007
+    400010: Object009
+    400012: Object011
+    400014: Object013
+    400016: Object015
+    400018: Object017
+    400020: Object019
+    400022: Object021
+    400024: Object023
+    400026: Object025
+    400028: Object027
+    400030: Object029
+    400032: Object031
+    400034: Object033
+    400036: Object035
+    400038: Object036
+    400040: Object037
+    400042: Object038
+    400044: Object039
+    400046: Object040
+    400048: poster
+    400050: Rectangle001
+    400052: Rectangle002
+    400054: Rectangle004
+    400056: Rectangle005
+    400058: Rectangle006
+    400060: Rectangle007
+    400062: Rectangle008
+    400064: Rectangle009
+    400066: Rectangle010
+    400068: Rectangle011
+    400070: Rectangle012
+    2300000: Object001
+    2300002: Object003
+    2300004: Object005
+    2300006: Object007
+    2300008: Object009
+    2300010: Object011
+    2300012: Object013
+    2300014: Object015
+    2300016: Object017
+    2300018: Object019
+    2300020: Object021
+    2300022: Object023
+    2300024: Object025
+    2300026: Object027
+    2300028: Object029
+    2300030: Object031
+    2300032: Object033
+    2300034: Object035
+    2300036: Object036
+    2300038: Object037
+    2300040: Object038
+    2300042: Object039
+    2300044: Object040
+    2300046: poster
+    2300048: Rectangle001
+    2300050: Rectangle002
+    2300052: Rectangle004
+    2300054: Rectangle005
+    2300056: Rectangle006
+    2300058: Rectangle007
+    2300060: Rectangle008
+    2300062: Rectangle009
+    2300064: Rectangle010
+    2300066: Rectangle011
+    2300068: Rectangle012
+    3300000: Object001
+    3300002: Object003
+    3300004: Object005
+    3300006: Object007
+    3300008: Object009
+    3300010: Object011
+    3300012: Object013
+    3300014: Object015
+    3300016: Object017
+    3300018: Object019
+    3300020: Object021
+    3300022: Object023
+    3300024: Object025
+    3300026: Object027
+    3300028: Object029
+    3300030: Object031
+    3300032: Object033
+    3300034: Object035
+    3300036: Object036
+    3300038: Object037
+    3300040: Object038
+    3300042: Object039
+    3300044: Object040
+    3300046: poster
+    3300048: Rectangle001
+    3300050: Rectangle002
+    3300052: Rectangle004
+    3300054: Rectangle005
+    3300056: Rectangle006
+    3300058: Rectangle007
+    3300060: Rectangle008
+    3300062: Rectangle009
+    3300064: Rectangle010
+    3300066: Rectangle011
+    3300068: Rectangle012
+    4300000: Rectangle001
+    4300002: Rectangle002
+    4300004: Object001
+    4300006: Object003
+    4300008: Object005
+    4300010: Object007
+    4300012: Object009
+    4300014: Object011
+    4300016: Object013
+    4300018: Object015
+    4300020: Object017
+    4300022: Object019
+    4300024: Object021
+    4300026: Object023
+    4300028: Object025
+    4300030: Object027
+    4300032: Object029
+    4300034: Object031
+    4300036: Object033
+    4300038: Object035
+    4300040: Object036
+    4300042: Object037
+    4300044: Object038
+    4300046: Object039
+    4300048: Object040
+    4300050: poster
+    4300052: Rectangle004
+    4300054: Rectangle005
+    4300056: Rectangle006
+    4300058: Rectangle007
+    4300060: Rectangle008
+    4300062: Rectangle009
+    4300064: Rectangle010
+    4300066: Rectangle011
+    4300068: Rectangle012
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: 225612cae825746a6b631588f83d432b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #25'
+    second: {fileID: 2100000, guid: 4cce8c5e32d954dfb9d80dc9b086ec4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #27'
+    second: {fileID: 2100000, guid: 73fe5cedc579d42638ae52c17cddbd6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #28'
+    second: {fileID: 2100000, guid: fff2c3a6a187c42f799f2c92627cb12c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak 2
+    second: {fileID: 2100000, guid: f54d4cb5e144444b19cd90a0e0c90146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic1
+    second: {fileID: 2100000, guid: cd532f7eabfb749b0b08955587fb07cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: poster
+    second: {fileID: 2100000, guid: 8f8b4cbda22e64f9da8e17bf7f93c397, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'vray Material #183'
+    second: {fileID: 2100000, guid: 859f5e7854e3b43238fceb3949717608, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'vray Material #184'
+    second: {fileID: 2100000, guid: c6d0fa63139614894bc72fa1b6629970, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'vray Material #185'
+    second: {fileID: 2100000, guid: 946850d8beb494b75bf9c0837c87228f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'vray Material #186'
+    second: {fileID: 2100000, guid: c94ec274ad933480ebfe90be627e9b23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'vray Material #187'
+    second: {fileID: 2100000, guid: 707eea6078bd64d3d98d47e986afc704, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'vray Material #188'
+    second: {fileID: 2100000, guid: 3da19af9d673e45d2aa6c79cdc7953ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'vray Material #189'
+    second: {fileID: 2100000, guid: 740145809d0da4dd49bc239163f62a7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'vray Material #190'
+    second: {fileID: 2100000, guid: 7ce569d7c476d49e48511cd54ef0cc6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'vray Material #192'
+    second: {fileID: 2100000, guid: 57fb51234694448a2b0dbff14a5a15dc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
