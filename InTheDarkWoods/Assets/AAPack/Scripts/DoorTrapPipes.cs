@@ -16,7 +16,7 @@ public class DoorTrapPipes : MonoBehaviour {
     private void Start()
     {
         door.interable = true;
-        woter.flagEnd = true;
+        woter.SetFlagEnd(true);
 
         foreach (FontanController f in fontains)
         {
@@ -30,7 +30,7 @@ public class DoorTrapPipes : MonoBehaviour {
         {
             door.interable = false;
             door.OpenDoor(false);
-            woter.flagEnd = false;
+            woter.SetFlagEnd(false);
 
             foreach (FontanController f in fontains)
             {

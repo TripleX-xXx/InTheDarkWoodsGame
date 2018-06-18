@@ -381,6 +381,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1427998481652612
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4197631736541444}
+  - component: {fileID: 82572596039838112}
+  m_Layer: 0
+  m_Name: water-fallling
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1448674470612456
 GameObject:
   m_ObjectHideFlags: 1
@@ -949,6 +965,19 @@ Transform:
   m_Father: {fileID: 4836422472771958}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4197631736541444
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1427998481652612}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.54, y: 2.9, z: -9.35115}
+  m_LocalScale: {x: 1, y: 1, z: 1.2568749}
+  m_Children: []
+  m_Father: {fileID: 4323164449703836}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4224924581010026
 Transform:
   m_ObjectHideFlags: 1
@@ -1014,6 +1043,7 @@ Transform:
   - {fileID: 4683162102015710}
   - {fileID: 4965805698170962}
   - {fileID: 4649348678481796}
+  - {fileID: 4197631736541444}
   m_Father: {fileID: 4336933015954724}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1229,8 +1259,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1596424856943588}
-  m_LocalRotation: {x: -0.26032785, y: 0.10259105, z: 0.027829932, w: 0.959651}
-  m_LocalPosition: {x: -6.227562, y: -17.180252, z: -15.775604}
+  m_LocalRotation: {x: -0.03704481, y: 0.5236492, z: 0.02280111, w: 0.8508227}
+  m_LocalPosition: {x: -8.949041, y: -4.4245787, z: 8.835419}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4336933015954724}
@@ -3819,6 +3849,86 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &82572596039838112
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1427998481652612}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 69e7d0b078f827d40bbdbeb19b99f109, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95080993866675324
 Animator:
   serializedVersion: 3
@@ -4003,12 +4113,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4129960a17987e742a9dfe070bf11946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 82572596039838112}
   start: {fileID: 4683162102015710}
   end: {fileID: 4965805698170962}
   platform: {fileID: 4649348678481796}
   exitDoor: {fileID: 0}
-  platformSpeed: 0.02
-  flagEnd: 0
+  platformSpeed: 0.04
 --- !u!114 &114408274795016092
 MonoBehaviour:
   m_ObjectHideFlags: 1

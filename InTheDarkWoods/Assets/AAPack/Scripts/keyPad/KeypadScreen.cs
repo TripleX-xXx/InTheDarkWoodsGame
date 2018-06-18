@@ -24,7 +24,7 @@ public class KeypadScreen : MonoBehaviour {
 
     private void Start()
     {
-        screen.text = "";
+        if(screen != null) screen.text = "";
     }
 
     public void Button(char z)
@@ -67,7 +67,7 @@ public class KeypadScreen : MonoBehaviour {
     {
         door.OpenDoor(true);
         door.locked = false;
-        timer.OnOFF(false);
+        if(timer != null) timer.OnOFF(false);
     }
 
 }
