@@ -6,6 +6,8 @@ public class FlameThrowers : MonoBehaviour {
 
 	[SerializeField]
     ParticleSystem[] particles;
+    [SerializeField]
+    AudioSource sound;
 
     public bool isOn = false;
 
@@ -17,12 +19,24 @@ public class FlameThrowers : MonoBehaviour {
             if (f)
             {
                 fire.Play();
+                sound.Play();
             }
             else
             {
+                sound.Stop();
                 fire.Stop();
                 fire.Clear();
             }
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player" && isOn)
+        {
+            //ToDo kill
+            Debug.Log("kill");
+        }
+    }
+
 }

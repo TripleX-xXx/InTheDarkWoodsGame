@@ -4,13 +4,26 @@ using UnityEngine;
 
 public class SymbolsTrapTrriger : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    [SerializeField]
+    private Door door;
+
+    [SerializeField]
+    private FlameController trap;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            door.OpenDoor(false);
+            door.locked = true;
+            trap.Run();
+            DestroyObject(gameObject);
+        }
+    }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(transform.position, transform.localScale);
+    }
 }

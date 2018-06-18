@@ -33,6 +33,7 @@ public class SymbolsPuzzle : MonoBehaviour {
         if (flag)
         {
             door.OpenDoor(true);
+            door.locked = false;
             trap.Stop();
         }
     }
