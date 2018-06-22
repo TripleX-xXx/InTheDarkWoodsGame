@@ -5,6 +5,9 @@ using UnityEngine;
 public class MoveWoter : MonoBehaviour {
 
     [SerializeField]
+    AudioSource sound;
+
+    [SerializeField]
     Transform start;
 
     [SerializeField]
@@ -22,12 +25,25 @@ public class MoveWoter : MonoBehaviour {
     Vector3 direction;
     Transform destinaction;
     bool stop = false;
-    public bool flagEnd = false;
+    private bool flagEnd = false;
     float currendSpeed;
 
     void Start () {
         SetDestinaction(end);
         currendSpeed = platformSpeed;
+    }
+
+    public void SetFlagEnd(bool v)
+    {
+        flagEnd = v;
+        if (v)
+        {
+            sound.Stop();
+        }
+        else
+        {
+            sound.Play();
+        }
     }
 
     public float Pressure()
@@ -81,6 +97,7 @@ public class MoveWoter : MonoBehaviour {
         this.stop = stop;
         if (stop)
         {
+            sound.Stop();
             currendSpeed = platformSpeed * 5;
             SetDestinaction(start);
         }

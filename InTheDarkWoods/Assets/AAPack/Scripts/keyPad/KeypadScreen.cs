@@ -9,6 +9,9 @@ public class KeypadScreen : MonoBehaviour {
     Door door;
 
     [SerializeField]
+    Timer timer;
+
+    [SerializeField]
     Text screen;
 
     [SerializeField]
@@ -21,7 +24,7 @@ public class KeypadScreen : MonoBehaviour {
 
     private void Start()
     {
-        screen.text = "";
+        if(screen != null) screen.text = "";
     }
 
     public void Button(char z)
@@ -63,6 +66,8 @@ public class KeypadScreen : MonoBehaviour {
     private void Open()
     {
         door.OpenDoor(true);
+        door.locked = false;
+        if(timer != null) timer.OnOFF(false);
     }
 
 }
