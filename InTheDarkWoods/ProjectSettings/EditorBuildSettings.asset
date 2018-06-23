@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/AAPack/Levels/SB_Menu.unity
+    guid: a4607c947e81e437a910979c5d176c66
+  - enabled: 1
     path: Assets/AAPack/Levels/MG_Prolog.unity
     guid: 101b69931ba2f7346bfc153ce01f8d1d
   - enabled: 1
