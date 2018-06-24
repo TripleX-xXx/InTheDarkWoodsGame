@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4730301604937326}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4079168171286070}
   - component: {fileID: 108479179796106520}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Spotlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   - component: {fileID: 92470672654060308}
   - component: {fileID: 124538425501824344}
   - component: {fileID: 81778031138094460}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: world_camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,9 +76,9 @@ GameObject:
   - component: {fileID: 82877220638211758}
   - component: {fileID: 114205842011045428}
   - component: {fileID: 114111964317498094}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: first_person_controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,8 +102,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1587156184543154}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -2.44, y: 0.66, z: -8.84}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.62, y: 0, z: 1.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4850832698695858}
@@ -154,7 +154,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -321,6 +321,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  length: 3
 --- !u!114 &114157826936131588
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -356,7 +357,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hand: {fileID: 4730301604937326}
-  image: {fileID: 0}
 --- !u!114 &114271521720875878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -377,8 +377,8 @@ MonoBehaviour:
   minVolume: 0.3
   maxVolume: 0.5
   debugMode: 1
-  groundCheckHeight: 0.5
-  groundCheckRadius: 0.5
+  groundCheckHeight: 0.4
+  groundCheckRadius: 0.4
   groundCheckDistance: 0.3
   groundLayers:
     serializedVersion: 2
@@ -418,10 +418,10 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
+  m_Height: 1.8
+  m_Radius: 0.4
   m_SlopeLimit: 30
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0.9, z: 0}

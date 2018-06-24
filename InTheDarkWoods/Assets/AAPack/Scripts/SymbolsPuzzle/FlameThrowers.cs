@@ -34,9 +34,23 @@ public class FlameThrowers : MonoBehaviour {
     {
         if (other.tag == "Player" && isOn)
         {
-            //ToDo kill
-            Debug.Log("kill");
+            Kill(other);
         }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Player" && isOn)
+        {
+            Kill(other);
+        }
+    }
+
+    private void Kill(Collider player)
+    {
+        //ToDo kill
+        Debug.Log("kill");
+        player.GetComponent<SwitchingSystem>().Kill();
     }
 
 }
