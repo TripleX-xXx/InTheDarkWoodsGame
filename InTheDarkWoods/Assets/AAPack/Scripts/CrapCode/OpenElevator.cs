@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class OpenElevator : MonoBehaviour {
 
@@ -11,6 +9,7 @@ public class OpenElevator : MonoBehaviour {
     Door door;
 
     bool flag;
+    public bool button = false;
 
 	void Update () {
         flag = true;
@@ -21,7 +20,7 @@ public class OpenElevator : MonoBehaviour {
                 flag = false;
             }
         }
-        if (flag)
+        if (flag && button)
         {
             door.OpenDoor(true);
         }
