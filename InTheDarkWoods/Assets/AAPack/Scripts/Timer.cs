@@ -26,6 +26,9 @@ public class Timer : MonoBehaviour {
     [SerializeField]
     AudioSource ticTac;
 
+    [SerializeField]
+    float punishment;
+
     private float time;
     private bool isOn;
 
@@ -100,5 +103,10 @@ public class Timer : MonoBehaviour {
         Instantiate(explosion, bomb);
         ticTac.Stop();
         saund.Play();
+    }
+
+    public void WrongCode()
+    {
+        time -= punishment;
     }
 }

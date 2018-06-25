@@ -17,7 +17,6 @@ public class PressureLock : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log(woter.Pressure());
         Set(woter.Pressure());
 	}
 }

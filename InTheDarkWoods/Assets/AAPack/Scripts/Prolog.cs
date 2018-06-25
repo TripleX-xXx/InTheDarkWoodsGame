@@ -24,18 +24,18 @@ public class Prolog : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") || Input.GetKeyDown(KeyCode.Mouse0))
         {
             time+=speed;
         }
-        time += Time.deltaTime;
+        //time += Time.deltaTime;
         if ((int)(time/speed) < images.Length)
         {
             images[(int)(time / speed)].enabled = true;
         }
         else if (time >= images.Length + speed)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
 	}
 

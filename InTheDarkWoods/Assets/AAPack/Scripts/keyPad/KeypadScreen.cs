@@ -46,6 +46,10 @@ public class KeypadScreen : MonoBehaviour {
         {
             Open();
         }
+        if (timer != null)
+        {
+            timer.WrongCode();
+        }
         ClearScreen();
     }
 

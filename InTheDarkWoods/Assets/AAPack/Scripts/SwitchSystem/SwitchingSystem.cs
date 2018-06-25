@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class SwitchingSystem : MonoBehaviour {
 
     [SerializeField]
+    EndingsController ec;
+
+    [SerializeField]
     Animator animator;
 
     [SerializeField]
@@ -71,12 +74,33 @@ public class SwitchingSystem : MonoBehaviour {
         if(isSara)
         {
             sataIsDead = true;
-            //endGame
+            ec.saraDead = true;
+            ec.Ending();
             animator.SetTrigger("Fade_Out");
         }
         else
         {
             justinIsDead = true;
+            ec.justinDead = true;
+            ec.Ending();
+            animator.SetTrigger("Fade_Out");
+        }
+    }
+
+    public void Save()
+    {
+        if (isSara)
+        {
+            sataIsDead = true;
+            ec.saraSave = true;
+            ec.Ending();
+            animator.SetTrigger("Fade_Out");
+        }
+        else
+        {
+            justinIsDead = true;
+            ec.justinSave = true;
+            ec.Ending();
             animator.SetTrigger("Fade_Out");
         }
     }
