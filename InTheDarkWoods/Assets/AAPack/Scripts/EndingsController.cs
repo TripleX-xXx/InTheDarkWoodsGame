@@ -44,31 +44,37 @@ public class EndingsController : MonoBehaviour {
     {
         if (justinSave && saraSave && !poison)
         {
+            DataStorage.Save(Endings.Ending4, true);
             ending4.enabled = true;
             flag = true;
         }
         else if (justinSave && saraSave && poison)
         {
+            DataStorage.Save(Endings.Ending3, true);
             ending3.enabled = true;
             flag = true;
         }
         else if (saraSave && justinDead)
         {
+            DataStorage.Save(Endings.Ending2, true);
             ending2.enabled = true;
             flag = true;
         }
         else if (saraSave && GasOn)
         {
+            DataStorage.Save(Endings.Ending2, true);
             ending2.enabled = true;
             flag = true;
         }
         else if (saraDead && GasOn)
         {
+            DataStorage.Save(Endings.Ending1, true);
             ending1.enabled = true;
             flag = true;
         }
         else if (justinDead && saraDead)
         {
+            DataStorage.Save(Endings.Ending1, true);
             ending1.enabled = true;
         }
     }

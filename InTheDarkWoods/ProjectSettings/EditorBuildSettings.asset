@@ -12,5 +12,5 @@ EditorBuildSettings:
     path: Assets/AAPack/Levels/MG_Prolog.unity
     guid: 101b69931ba2f7346bfc153ce01f8d1d
   - enabled: 1
-    path: Assets/AAPack/Levels/MG_HolelLevel.unity
-    guid: e58888a9980c93548bfbfc4db9462a4e
+    path: Assets/AAPack/Levels/MG_HotelLevel2.unity
+    guid: 448c68682ea72424aa34e8edcbafdc48
