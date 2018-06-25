@@ -8,6 +8,8 @@ public class FlameThrowers : MonoBehaviour {
     ParticleSystem[] particles;
     [SerializeField]
     AudioSource sound;
+    [SerializeField]
+    FlameController fc;
 
     public bool isOn = false;
 
@@ -48,9 +50,7 @@ public class FlameThrowers : MonoBehaviour {
 
     private void Kill(Collider player)
     {
-        //ToDo kill
-        Debug.Log("kill");
-        player.GetComponent<SwitchingSystem>().Kill();
+        fc.Kill(player);
     }
 
 }

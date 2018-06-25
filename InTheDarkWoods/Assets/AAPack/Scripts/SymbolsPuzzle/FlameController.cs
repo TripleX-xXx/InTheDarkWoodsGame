@@ -5,6 +5,12 @@ using UnityEngine;
 public class FlameController : MonoBehaviour {
 
     [SerializeField]
+    float time = 1.5f;
+
+    [SerializeField]
+    AudioSource soundDeath;
+
+    [SerializeField]
     FlameThrowers[] fireWalls;
 
     [SerializeField]
@@ -12,6 +18,7 @@ public class FlameController : MonoBehaviour {
 
     private float timer;
     private bool isOn;
+    private bool flag;
 
     public void Stop()
     {
@@ -31,6 +38,7 @@ public class FlameController : MonoBehaviour {
 
     private void Start()
     {
+        flag = true;
         timer = 0;
         isOn = false;
         Stop();
@@ -46,10 +54,25 @@ public class FlameController : MonoBehaviour {
             {
                 fireWalls[(int)(timer / deltaTime)].OnOff(true);
             }
-            if (fireWalls.Length < timer)
-            {
-                //todo kill
-            }
         }
     }
+
+    public void Kill(Collider player)
+    {
+        if (flag)
+        {
+            flag = false;
+            soundDeath.Play();
+            StartCoroutine(Sleep(player));
+        }
+    }
+
+    IEnumerator Sleep(Collider player)
+    {
+        yield return new WaitForSecondsRealtime(time);
+        player.GetComponent<SwitchingSystem>().Kill();
+        yield return new WaitForSecondsRealtime(0.5f);
+        Stop();
+    }
+
 }

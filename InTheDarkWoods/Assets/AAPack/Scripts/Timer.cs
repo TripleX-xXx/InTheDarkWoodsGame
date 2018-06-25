@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour {
 
     [SerializeField]
+    SwitchingSystem ss;
+
+    [SerializeField]
     Text screen;
 
     [SerializeField]
@@ -93,9 +96,9 @@ public class Timer : MonoBehaviour {
 
     private void End()
     {
-        //toDo kill
+        ss.Kill();
         Instantiate(explosion, bomb);
+        ticTac.Stop();
         saund.Play();
-        Debug.Log("time kill");
     }
 }

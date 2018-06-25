@@ -5,6 +5,15 @@ using UnityEngine;
 public class EnergyBox : MonoBehaviour {
 
     [SerializeField]
+    float time = 0;
+
+    [SerializeField]
+    AudioSource soundDeath;
+
+    [SerializeField]
+    SwitchingSystem ss;
+    
+    [SerializeField]
     Door door;
 
     [SerializeField]
@@ -31,7 +40,7 @@ public class EnergyBox : MonoBehaviour {
 
     private void Loss()
     {
-        //todo
+        Kill();
     }
 
     public void Cut(int v)
@@ -55,6 +64,19 @@ public class EnergyBox : MonoBehaviour {
                 }
             }
         }
+    }
+
+    public void Kill()
+    {
+        
+            soundDeath.Play();
+            StartCoroutine(Sleep());
+    }
+
+    IEnumerator Sleep()
+    {
+        yield return new WaitForSecondsRealtime(time);
+        ss.GetComponent<SwitchingSystem>().Kill();
     }
 
 }

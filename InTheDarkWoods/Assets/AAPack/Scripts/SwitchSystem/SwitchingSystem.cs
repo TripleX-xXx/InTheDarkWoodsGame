@@ -72,11 +72,12 @@ public class SwitchingSystem : MonoBehaviour {
         {
             sataIsDead = true;
             //endGame
+            animator.SetTrigger("Fade_Out");
         }
         else
         {
             justinIsDead = true;
-            Go();
+            animator.SetTrigger("Fade_Out");
         }
     }
 
@@ -87,6 +88,7 @@ public class SwitchingSystem : MonoBehaviour {
         justin.enabled = !justin.enabled;
         Vector3 tempPosition = secondHero.position;
         Quaternion tempRotation = secondHero.rotation;
+        GetComponent<Inventory>().RemoveItem();
         secondHero.SetPositionAndRotation(transform.position, transform.rotation);
         gameObject.GetComponent<Transform>().SetPositionAndRotation(tempPosition, tempRotation);
 

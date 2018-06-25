@@ -5,6 +5,12 @@ using UnityEngine;
 public class MoveWoter : MonoBehaviour {
 
     [SerializeField]
+    AudioSource soundDeath;
+
+    [SerializeField]
+    SwitchingSystem ss;
+
+    [SerializeField]
     AudioSource sound;
 
     [SerializeField]
@@ -27,6 +33,7 @@ public class MoveWoter : MonoBehaviour {
     bool stop = false;
     private bool flagEnd = false;
     float currendSpeed;
+    private bool soundflag = true;
 
     void Start () {
         SetDestinaction(end);
@@ -70,9 +77,18 @@ public class MoveWoter : MonoBehaviour {
                 }
                 else
                 {
-                    Debug.Log("Lose");
+                    Stop(true);
+                    ss.GetComponent<SwitchingSystem>().Kill();
                 }
                 flagEnd = true;
+            }
+            if (soundflag)
+            {
+                if (Pressure() > 0.75f)
+                {
+                    soundflag = false;
+                    soundDeath.Play();
+                }
             }
         }
     }
@@ -98,6 +114,7 @@ public class MoveWoter : MonoBehaviour {
         if (stop)
         {
             sound.Stop();
+            soundDeath.Stop();
             currendSpeed = platformSpeed * 5;
             SetDestinaction(start);
         }
