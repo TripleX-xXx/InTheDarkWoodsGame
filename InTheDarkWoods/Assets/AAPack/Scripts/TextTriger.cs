@@ -24,10 +24,7 @@ public class TextTriger : MonoBehaviour {
         if (other.tag == "Player")
         {
             StartCoroutine(Sleep());
-            if (!repeat)
-            {
-                DestroyObject(this);
-            }
+            
         }
     }
 
@@ -36,7 +33,14 @@ public class TextTriger : MonoBehaviour {
         text.enabled = true;
         yield return new WaitForSecondsRealtime(time);
         text.enabled = false;
-        
+        if (!repeat) del();
+
+
+    }
+
+    private void del()
+    {
+        DestroyObject(this);
     }
 
 }
